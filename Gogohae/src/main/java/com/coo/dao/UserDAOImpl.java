@@ -13,7 +13,7 @@ public class UserDAOImpl implements UserDAO {
 	@Inject
 	private SqlSession sqlSession;
 	
-	private static final String namespace = "coo.com.mapper.UserMapper";
+	private static final String namespace = "com.coo.mapper.UserMapper";
 
 	@Override
 	public String getTime() {
